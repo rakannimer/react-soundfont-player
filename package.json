@@ -1,6 +1,6 @@
 {
   "name": "react-soundfont-player",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "build": "rm -rf ./dist/ && rollup -c",
     "prepublish": "npm run build",
     "commit": "git-cz",
-    "setup:semantic-release": "npx semantic-release-cli setup"
+    "setup:semantic-release": "npx semantic-release-cli setup",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
@@ -51,7 +52,7 @@
   "description": "Render Interactive Instruments & Musical Notes with React",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rakannimer/react-instruments"
+    "url": "https://github.com/rakannimer/react-soundfont-player"
   },
   "dependencies": {
     "render-and-add-props": "^0.5.0",
