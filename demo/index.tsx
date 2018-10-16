@@ -9,7 +9,7 @@ const App = () => {
     <div>
       Oh hai Instrument
       <ReactSoundFontPlayer name="harmonica">
-        {({ instrument, audioContext: ac, playNoteFor }) => (
+        {({ instrument, audioContext: ac, playNoteFor, isLoading }) => (
           <div>
             Instrument ready
             <button

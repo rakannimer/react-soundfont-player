@@ -20,6 +20,7 @@ export const getAudioContext = () => {
 };
 
 export type InstrumentState = {
+  isLoading: boolean;
   instrument: SoundFontPlayer.Player | null;
   audioContext: ReturnType<typeof getAudioContext>;
   playNoteFor: null | ((noteName: string, duration: number) => Promise<void>);
